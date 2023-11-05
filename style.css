@@ -109,18 +109,13 @@ body {
     width: 2rem;
 }
 .address-row-cont {
-    height: 1rem;
-    top: 5rem;
+    height: 2rem;
     display: flex;
-    /* position: absolute; */
-    background-color: green;
 }
 .cells-cont {
-    position: relative;
+    position: absolute;
     top: 0;
-    height: 10rem;
     left: 2rem;
-    background-color: red;
 }
 
 .address-col {
