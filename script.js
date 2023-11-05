@@ -22,6 +22,6 @@ for (let i = 0; i < rows; i++) {
 for (let i=0;i < cols; i++) {
     let addressRow = document.createElement("div");
     addressRow.setAttribute("class" , "address-row");
-    addressRow.innerText = i+1;
+    addressRow.innerText = String.fromCharCode(65 + i);
     addressRowCont.appendChild(addressRow);
 }
