@@ -61,6 +61,7 @@ body {
 }
 .address-bar {
     width: 5rem;
+    text-align: center;
 }
 .formula-bar {
     width: calc( 100vw - 5rem - 0.7rem - 0.7rem - 0.7rem );
@@ -102,14 +103,21 @@ body {
 .top-left-dummy-box {
     height: 2rem;
     width: 2rem;
+    position: fixed;
     background-color: #747d8c;
+    z-index: 5;
 }
 .address-col-cont {
-    height: 10rem;
-    width: 2rem;
+    top: 2rem;
+    left: 0;
+    position: sticky;
 }
 .address-row-cont {
     display: flex;
+    z-index: 3;
+    top: 0;
+    left: 2rem;
+    position: sticky
 }
 .cells-cont {
     position: absolute;
@@ -132,4 +140,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.row-cont {
+    display: flex;
+}
+.cell {
+    height: 2rem;
+    width: 5rem;
+    border: 1px solid #dfe4ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
 }
