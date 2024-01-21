@@ -19,46 +19,46 @@
         <div class="page-action">Help</div>
     </div>
     <div class="cellprop-actions-cont">
-        <span class="material-icons">
+        <span id="content_copy" class="material-icons" onclick="addClass(this)">
             content_copy
         </span>
-        <span class="material-icons">
+        <span id="content_cut" class="material-icons" onclick="addClass(this)">
             content_cut
         </span>
-        <span class="material-icons">
+        <span id="content_paste" class="material-icons" onclick="addClass(this)">
             content_paste
         </span>
-        <select class="font-family-prop">
+        <select id="fonts" class="font-family-prop">
             <option value="monospace">Monospace</option>
             <option value="sans-serif">Sans-Serif</option>
             <option value="fantasy">Fantasy</option>
             <option value="cursive">Cursive</option>
         </select>
-        <select class="font-size-prop">
+        <select id="size" class="font-size-prop"> 
             <option value="14">14</option>
             <option value="16">16</option>
             <option value="18">18</option>
             <option value="20">20</option>
         </select>
-        <span class="material-icons">
+        <span id="format_bold" class="material-icons" onclick="addClass(this,'bold')">
             format_bold
         </span>
-        <span class="material-icons">
+        <span id="format_italic" class="material-icons copy-active" onclick="addClass(this,'italic')">
             format_italic
         </span>
-        <span class="material-icons">
+        <span id="format_underlined" class="material-icons" onclick="addClass(this,'underline')">
             format_underlined
         </span>
-        <span class="material-icons">
+        <span id="format_align_left" class="material-icons" onclick="addClass(this,'leftalign')">
             format_align_left
         </span>
-        <span class="material-icons">
+        <span id="format_align_justify" class="material-icons" onclick="addClass(this,'centeralign')">
             format_align_justify
         </span>
-        <span class="material-icons">
+        <span id="format_align_right" class="material-icons" onclick="addClass(this,'rightalign')">
             format_align_right
         </span>
-        <span class="material-icons">
+        <span id="format_color_fill" class="material-icons" onclick="addClass(this,'colorfill')">
             format_color_fill
         </span>
     </div>
